@@ -23,12 +23,12 @@ navbar-links:
   About Me: "aboutme"
   Projects/Work:
     - One to One Systems: "https://00itamarts00.github.io/2025-02-09-one-to-one-systems/"
-    - GovPlus: "https://www.markdowntutorial.com/"
-    - Sanas.ai: "https://www.markdowntutorial.com/"
-    - AiVF: "https://www.markdowntutorial.com/"
-    - Viz.ai: "https://www.markdowntutorial.com/"
-    - GovPlus: "https://www.markdowntutorial.com/"
-    - GovPlus: "https://www.markdowntutorial.com/"
+    - GovPlus: https://00itamarts00.github.io/2025-02-09-govplus/
+    # - Sanas.ai: "https://www.markdowntutorial.com/"
+    # - AiVF: "https://www.markdowntutorial.com/"
+    # - Viz.ai: "https://www.markdowntutorial.com/"
+    # - GovPlus: "https://www.markdowntutorial.com/"
+    # - GovPlus: "https://www.markdowntutorial.com/"
   Author's home: "https://www.predev-consulting.com/"
 
 ################
@@ -262,7 +262,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Israel"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
