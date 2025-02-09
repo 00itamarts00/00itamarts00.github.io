@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Future of Custom Tailoring with AI
-subtitle: Project for One-to-One Systems
+subtitle: Project for One-to-One Systems LLC
 cover-img: /assets/img/one-to-one_cover.jpg
 tags: [FashionTech, SMPL, MachineLearning, AnthropometricData]
 comments: true
