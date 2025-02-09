@@ -27,15 +27,9 @@ My **goal** is to bridge the gap between **theory and practical implementation**
 
 ---
 
-## Volunteering & Contributions  
+## Volunteering
 
-I strongly believe in **knowledge-sharing and mentorship**. Over the years, I’ve volunteered in:  
-
-- **AI education initiatives**, mentoring aspiring machine learning engineers.  
-- **Tech-driven community projects**, helping non-profits and organizations integrate **AI solutions** for social impact.  
-- **Open-source contributions**, particularly in **AI and deep learning frameworks**.  
-
-I see **AI as a tool for transformation**, and part of that transformation comes from making knowledge **accessible and impactful**.  
+- **Mabua:** Actively volunteering for 10+ years in **Mabua**, a grassroots initiative dedicated to bridging the gap between secular and religious Israelis. Through dialogue, cultural events, and community-building efforts, I work to **foster a shared and evolving Jewish identity**, blending tradition and modernity into a common cultural foundation for all Israelis.  
 
 ---
 
@@ -44,9 +38,9 @@ I see **AI as a tool for transformation**, and part of that transformation comes
 Beyond AI, I have a strong interest in **motorcycles, technology, and optimization problems** (inside and outside of machine learning). When I’m not working on AI projects, you’ll find me:  
 
 - **Riding my Honda CB500X**, because solving problems sometimes requires a fresh perspective (and open roads).  
-- **Exploring AI for fashion**, working on models that help customize garment designs based on body measurements.  
-- **Algorithmic trading**, testing low-frequency strategies using AI-driven insights.  
-- **Experimenting with data-driven nutrition**, because if AI can optimize workflows, why not also optimize food?  
+- **Fixing everything I can**, from electronics to home repairs—if it’s broken, I’ll try to fix it.  
+- **Pottery making**, shaping both clay and ideas with my hands.  
+- **Trying to learn guitar for years**, but still far from playing a full song.
 
 ---
 
@@ -54,6 +48,5 @@ Beyond AI, I have a strong interest in **motorcycles, technology, and optimizati
 
 I take a **structured, results-driven approach** to AI development. Whether it's **building AI-powered medical solutions, optimizing deep learning models, or designing scalable architectures**, I focus on **efficiency, accuracy, and long-term impact**.  
 
-If you're looking for **an AI consultant, a strategic problem solver, or just someone who thinks deeply about optimization**, let’s connect.  
 
 📬 **Contact Me** – Preferably during working hours, unless it’s an AI breakthrough or a once-in-a-lifetime motorcycle deal.  
