@@ -3,13 +3,11 @@ layout: post
 title: The Future of Custom Tailoring with AI
 subtitle: Project for One-to-One Systems
 cover-img: /assets/img/one-to-one_cover.jpg
-tags: [AI, FashionTech, CustomClothing, 3DModeling, SMPL, MachineLearning, PersonalizedFashion, GarmentTech, DeepLearning, TailoringInnovation]
+tags: [FashionTech, SMPL, MachineLearning, AnthropometricData]
 comments: true
 mathjax: true
 author: Itamar Tsayag
 ---
-
-# Introduction: A New Era of Customizable Fashion  
 
 The fashion industry is undergoing a radical transformation, shifting from mass production to hyper-personalized, made-to-measure garments. At **One-to-One Systems**, we are pioneering this change with cutting-edge **AI-driven customizable fashion algorithms**.  
 
