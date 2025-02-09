@@ -1,20 +1,14 @@
 ---
 layout: post
-title: 🚀 Revolutionizing Customizable Fashion with AI
+title: The Future of Custom Tailoring with AI
 subtitle: Project for One-to-One Systems
 # gh-repo: daattali/beautiful-jekyll
 # gh-badge: [star, fork, follow]
-tags: [add]
+cover-img: /assets/img/cover-img-121-post.jpg
+tags: [AI, FashionTech, CustomClothing, 3DModeling, SMPL, MachineLearning, PersonalizedFashion, GarmentTech, DeepLearning, TailoringInnovation]
 comments: true
 mathjax: true
 author: Itamar Tsayag
----
-
-<!-- # 🚀 Revolutionizing Customizable Fashion with AI   -->
-# 🔥 The Future of Personalized Garment Design is Here  
-
-*By Itamar Tsayag | Project for One-to-One Systems*  
-
 ---
 
 ## 🏗️ Introduction: A New Era of Customizable Fashion  
@@ -35,7 +29,7 @@ By leveraging **deep learning, parametric body modeling, and optimization algori
 
 ---
 
-## 🔍 The Algorithm: From Measurements to 3D Models  
+## 🔍 From Measurements to 3D Models  
 
 Our algorithm consists of three major stages:  
 
@@ -47,29 +41,7 @@ Let's break down each stage.
 
 ---
 
-### 📏 1️⃣ Estimating the SMPL Model from Measurements  
-
-The **SMPL model** is a **parametric 3D model** that represents human bodies with **pose and shape parameters**. However, our input is **not a 3D scan**, but instead a **set of key body measurements** provided by the user.  
-
-To estimate the **best-fitting SMPL parameters**, we minimize the difference between the **expected and generated body measurements**. This optimization problem can be expressed as follows:  
-
-\[
-\theta^*, \beta^* = \arg\min_{\theta, \beta} \sum_{i=1}^{N} \left\| M_i^{\text{pred}}(\theta, \beta) - M_i^{\text{gt}} \right\|^2
-\]
-
-Where:  
-- \( \theta \) represents the **pose parameters**  
-- \( \beta \) represents the **shape parameters**  
-- \( M_i^{\text{pred}} \) is the predicted body measurement from the SMPL model  
-- \( M_i^{\text{gt}} \) is the user-provided measurement  
-
-We solve this **non-linear least squares** problem using **gradient-based optimization**.  
-
-📌 *[Placeholder for a diagram illustrating the SMPL parameter optimization]*  
-
----
-
-### 📐 2️⃣ Extracting Precise Anthropometric Measurements  
+### 📐 Extracting Precise Anthropometric Measurements  
 
 Once the **personalized SMPL model** is generated, we extract detailed **anthropometric features**, including:  
 - Chest circumference  
@@ -83,7 +55,7 @@ These extracted values are **far more accurate** than direct user measurements, 
 
 ---
 
-### 🧵 3️⃣ Generating Block Templates for Custom Garments  
+### 🧵 Generating Block Templates for Custom Garments  
 
 Using the extracted measurements, we generate **block templates**—the fundamental blueprints for custom garments. Each garment type requires specific template calculations:  
 
@@ -127,15 +99,6 @@ We believe this technology will be **a game-changer** in how clothes are designe
 
 ---
 
-## 🎯 What's Next?  
-
-At **One-to-One Systems**, we are committed to pushing the boundaries of **custom fashion AI**. Future developments include:  
-🚀 **Integration with photogrammetry** for even greater accuracy  
-🧵 **Automated garment draping simulation**  
-🌎 **On-demand AI-powered tailoring for e-commerce**  
-
----
-
 ## 💡 Final Thoughts  
 
 The world of fashion is changing. **AI-driven garment customization is no longer the future—it’s happening now.**  
@@ -147,5 +110,3 @@ By combining **deep learning, 3D body modeling, and precise anthropometric extra
 📌 *[Placeholder for a call-to-action: Contact One-to-One Systems for collaborations]*  
 
 ---
-
-🚀 **Powered by AI. Designed for You.**
