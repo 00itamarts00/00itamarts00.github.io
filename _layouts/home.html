@@ -4,26 +4,6 @@ layout: page
 
 {{ content }}
 
-{% if site.company-logos %}
-<div class="company-logos-container">
-  <div class="company-logos">
-    {% for company in site.company-logos %}
-      {% assign name = company[0] %}
-      {% assign details = company[1] %}
-      {% if details.url %}
-        <a href="{{ details.url }}" target="_blank" class="company-logo" title="{{ name }}">
-          <img src="{{ details.path | absolute_url }}" alt="{{ name }} logo" />
-        </a>
-      {% else %}
-        <div class="company-logo" title="{{ name }}">
-          <img src="{{ details.path | absolute_url }}" alt="{{ name }} logo" />
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
-{% endif %}
-
 {% assign posts = paginator.posts | default: site.posts %}
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
@@ -139,4 +119,26 @@ layout: page
   </li>
   {% endif %}
 </ul>
+{% endif %}
+
+{% if site.company-logos %}
+<div class="company-logos-section">
+  <div class="company-logos-container">
+    <div class="company-logos">
+      {% for company in site.company-logos %}
+        {% assign name = company[0] %}
+        {% assign details = company[1] %}
+        {% if details.url %}
+          <a href="{{ details.url }}" target="_blank" class="company-logo" title="{{ name }}">
+            <img src="{{ details.path | absolute_url }}" alt="{{ name }} logo" />
+          </a>
+        {% else %}
+          <div class="company-logo" title="{{ name }}">
+            <img src="{{ details.path | absolute_url }}" alt="{{ name }} logo" />
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
 {% endif %}
