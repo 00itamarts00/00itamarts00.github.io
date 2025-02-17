@@ -7,12 +7,16 @@
   height: 120px;  /* Set fixed banner height */
   display: flex;
   align-items: center;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
 }
 
 .company-logos-container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -24,6 +28,7 @@
   flex-wrap: wrap;
   gap: 2rem;
   height: 100%;
+  padding: 0 2rem;  /* Add some padding on the sides */
 }
 
 .company-logo {
@@ -61,5 +66,6 @@
   
   .company-logos {
     gap: 1.5rem;
+    padding: 0 1rem;  /* Smaller padding on mobile */
   }
 } 

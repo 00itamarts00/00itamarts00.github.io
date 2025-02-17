@@ -128,15 +128,9 @@ layout: page
       {% for company in site.company-logos %}
         {% assign name = company[0] %}
         {% assign details = company[1] %}
-        {% if details.url %}
-          <a href="{{ details.url }}" target="_blank" class="company-logo" title="{{ name }}">
-            <img src="{{ details.path | absolute_url }}" alt="{{ name }} logo" />
-          </a>
-        {% else %}
-          <div class="company-logo" title="{{ name }}">
-            <img src="{{ details.path | absolute_url }}" alt="{{ name }} logo" />
-          </div>
-        {% endif %}
+        <div class="company-logo" title="{{ name }}">
+          <img src="{{ details.path | absolute_url }}" alt="{{ name }} logo" />
+        </div>
       {% endfor %}
     </div>
   </div>

@@ -62,6 +62,15 @@ company-logos:
   "PreDev Consulting":
     path: "/assets/img/logos_processed/predev.png"
     url: "https://www.predev-consulting.com"
+  "One To One Systems":
+    path: "/assets/img/logos_processed/121.png"
+    url: "https://www.predev-consulting.com"
+  "GovPlus":
+    path: "/assets/img/logos_processed/govplus.png"
+    url: "https://govplus.com/"
+  "Magic Leap":
+    path: "/assets/img/logos_processed/magicleap.png"
+    url: "https://govplus.com/"
 
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
