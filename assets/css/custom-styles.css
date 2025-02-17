@@ -4,6 +4,9 @@
   padding: 2rem 0;
   margin-top: 3rem;
   border-top: 1px solid #DDDDDD;  /* Matching navbar border style */
+  height: 120px;  /* Set fixed banner height */
+  display: flex;
+  align-items: center;
 }
 
 .company-logos-container {
@@ -20,11 +23,13 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  height: 100%;
 }
 
 .company-logo {
   display: inline-block;
   transition: transform 0.2s;
+  height: 100%;
 }
 
 .company-logo:hover {
@@ -32,7 +37,7 @@
 }
 
 .company-logo img {
-  height: 50px;
+  height: calc(120px * 0.9);  /* 90% of banner height */
   width: auto;
   object-fit: contain;
   filter: grayscale(100%);
@@ -46,8 +51,12 @@
 }
 
 @media (max-width: 768px) {
+  .company-logos-section {
+    height: 100px;  /* Smaller height on mobile */
+  }
+  
   .company-logo img {
-    height: 40px;
+    height: calc(100px * 0.9);  /* 90% of mobile banner height */
   }
   
   .company-logos {
