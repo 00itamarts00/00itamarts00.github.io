@@ -1,0 +1,36 @@
+.company-logos-container {
+  margin: 2rem 0;
+  padding: 1rem 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.company-logo {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.company-logo:hover {
+  transform: scale(1.1);
+}
+
+.company-logo img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .company-logo img {
+    height: 40px;
+  }
+} 
