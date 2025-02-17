@@ -51,13 +51,13 @@ round-avatar: true
 # Dictionary of company names and their logo paths
 company-logos:
   "Sanas.ai": 
-    path: "/assets/img/logos/sanas.png"
+    path: "/assets/img/logos/Sanas_Logo.jpg"
     url: "https://www.sanas.ai"
   "AiVF": 
-    path: "/assets/img/logos/aivf.png"
+    path: "/assets/img/logos/AIVF_Logo.jpg"
     url: "https://www.aivf.co"
   "Viz.ai":
-    path: "/assets/img/logos/viz.png"
+    path: "/assets/img/logos/vizai_logo.png"
     url: "https://www.viz.ai"
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
