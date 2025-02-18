@@ -7,12 +7,6 @@
   height: 180px;  /* Increased from 120px to 180px */
   display: flex;
   align-items: center;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  width: 100vw;
 }
 
 .company-logos-container {
@@ -31,7 +25,6 @@
   flex-wrap: wrap;
   gap: 2rem;
   height: 100%;
-  padding: 0 2rem;  /* Add some padding on the sides */
 }
 
 .company-logo {
@@ -60,15 +53,23 @@
 
 @media (max-width: 768px) {
   .company-logos-section {
-    height: 140px;  /* Increased mobile height from 100px to 140px */
+    height: 140px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1rem 0;
+  }
+  
+  .company-logos-container {
+    padding-right: 10px;
+    padding-left: 10px;
   }
   
   .company-logo img {
-    height: calc(140px * 0.9);  /* 90% of new mobile banner height */
+    height: calc(140px * 0.9);
   }
   
   .company-logos {
-    gap: 1.5rem;
-    padding: 0 1rem;
+    gap: 1rem;
   }
 } 
