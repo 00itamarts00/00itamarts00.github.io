@@ -4,7 +4,7 @@
   padding: 1rem 0;
   margin-top: 3rem;
   border-top: 1px solid #DDDDDD;  /* Matching navbar border style */
-  height: 180px;  /* Increased from 120px to 180px */
+  height: 120px;  /* Reduced from 180px */
   display: flex;
   align-items: center;
   position: relative;
@@ -53,7 +53,7 @@
 }
 
 .company-logo img {
-  height: calc(180px * 0.9);  /* 90% of the new banner height */
+  height: calc(120px * 0.7);  /* Reduced to 70% of banner height */
   width: auto;
   object-fit: contain;
   filter: grayscale(100%);
@@ -68,7 +68,7 @@
 
 @media (max-width: 768px) {
   .company-logos-section {
-    height: 140px;  /* Increased mobile height from 100px to 140px */
+    height: 100px;  /* Reduced from 140px */
   }
   
   .company-logo {
@@ -76,7 +76,7 @@
   }
   
   .company-logo img {
-    height: calc(140px * 0.9);  /* 90% of new mobile banner height */
+    height: calc(100px * 0.7);  /* Reduced to 70% of mobile banner height */
   }
   
   .company-logos {
