@@ -101,6 +101,4 @@ The world of fashion is changing. **AI-driven garment customization is no longer
 
 By combining **deep learning, 3D body modeling, and precise anthropometric extraction**, we’ve built a system that **bridges the gap** between mass production and tailor-made perfection.  
 
-*Have thoughts on AI-powered fashion? Contact One-to-One Systems to learn more.*  
-
 ---
