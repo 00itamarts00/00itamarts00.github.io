@@ -47,8 +47,8 @@ Once the **personalized SMPL model** is generated, we extract detailed **anthrop
 
 These extracted values are **far more accurate** than direct user measurements, as they leverage **3D spatial consistency**.  
 
-*Placeholder for an image showing the SMPL model with key body measurements highlighted.*  
-
+<!-- *Placeholder for an image showing the SMPL model with key body measurements highlighted.*   -->
+<img src="assets/img/measurement_visualization.png" alt="Anthropometric Data Extraction" width="300">
 ---
 
 ## Generating Block Templates for Custom Garments  
