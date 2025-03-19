@@ -47,8 +47,7 @@ Once the **personalized SMPL model** is generated, we extract detailed **anthrop
 
 These extracted values are **far more accurate** than direct user measurements, as they leverage **3D spatial consistency**.  
 
-<!-- *Placeholder for an image showing the SMPL model with key body measurements highlighted.*   -->
-<img src="assets/img/measurement_visualization.png" alt="Anthropometric Data Extraction" width="300">
+<img src="assets/img/measurement_visualization.png" alt="SMPL model with key body measurements" width="100%">  
 ---
 
 ## Generating Block Templates for Custom Garments  
@@ -97,8 +96,8 @@ We believe this technology will be **a game-changer** in how clothes are designe
 
 # Final Thoughts  
 
-The world of fashion is changing. **AI-driven garment customization is no longer the future—it’s happening now.**  
+The world of fashion is changing. **AI-driven garment customization is no longer the future—it's happening now.**  
 
-By combining **deep learning, 3D body modeling, and precise anthropometric extraction**, we’ve built a system that **bridges the gap** between mass production and tailor-made perfection.  
+By combining **deep learning, 3D body modeling, and precise anthropometric extraction**, we've built a system that **bridges the gap** between mass production and tailor-made perfection.  
 
 ---
