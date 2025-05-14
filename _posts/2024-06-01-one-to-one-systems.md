@@ -21,7 +21,7 @@ This post delves deep into the technology that makes this possible.
 
 Traditional fashion sizing systems rely on predefined size charts, leading to **poor-fitting clothes** for many consumers. Even in made-to-measure clothing, traditional measurement techniques are prone to **human error**, making them inefficient and costly.  
 
-By leveraging **deep learning, parametric body modeling, and optimization algorithms**, we developed a **scalable and highly accurate** system that takes a **small set of user-provided measurements** and estimates a full **3D SMPL model**, which is then used to extract precise garment patterns.  
+By leveraging deep learning, parametric body modeling, and optimization algorithms, we developed a **scalable and highly accurate** system that takes a **small set of user-provided measurements** and estimates a full **3D SMPL model**, which is then used to extract precise garment patterns.  
 
 ---
 
@@ -39,59 +39,58 @@ Let's break down each stage.
 
 ## Extracting Precise Anthropometric Measurements  
 
-Once the **personalized SMPL model** is generated, we extract detailed **anthropometric features**, including:  
+Once the personalized SMPL model is generated, we extract detailed anthropometric features, including:  
 - Chest circumference  
 - Waist and hip measurements  
 - Shoulder width  
 - Inseam and outseam lengths  
 
-These extracted values are **far more accurate** than direct user measurements, as they leverage **3D spatial consistency**.  
+These extracted values are far more accurate than direct user measurements, as they leverage 3D spatial consistency.  
 
-<!-- ![SMPL model with key body measurements](/assets/img/measurement_visualization.png) -->
 <img src="/assets/img/measurement_visualization.png" alt="SMPL Model with Key Measurements" width="600">
+
 ---
 
 ## Generating Block Templates for Custom Garments  
 
-Using the extracted measurements, we generate **block templates**—the fundamental blueprints for custom garments. Each garment type requires specific template calculations:  
+Using the extracted measurements, we generate block templates—the fundamental blueprints for custom garments. Each garment type requires specific template calculations:
 
-### Upper Body (Shirts, Jackets)  
-\[
-L_{\text{shirt}} = f_{\text{upper}}(\text{chest}, \text{shoulder}, \text{sleeve length})
-\]  
+### Upper Body (Shirts, Jackets)
 
-### Lower Body (Pants, Skirts)  
-\[
-L_{\text{pants}} = f_{\text{lower}}(\text{waist}, \text{hip}, \text{inseam}, \text{outseam})
-\]  
+$$
+L_{\text{shirt}} = f_{\text{upper}}(\text{chest},\ \text{shoulder},\ \text{sleeve length})
+$$
 
-These templates are **adjusted dynamically** based on **fabric elasticity, desired fit (tight, regular, loose), and ease allowances**.  
+### Lower Body (Pants, Skirts)
 
-*Placeholder for an image showing a generated garment block template.*  
+$$
+L_{\text{pants}} = f_{\text{lower}}(\text{waist},\ \text{hip},\ \text{inseam},\ \text{outseam})
+$$
 
+These templates are adjusted dynamically based on fabric elasticity, desired fit (tight, regular, loose), and ease allowances.
+
+<img src="/assets/img/121_custom_tex_block.png" alt="Generated Garment Block Template" width="600">
 ---
 
 # Results: The Accuracy of AI-Powered Fashion  
 
-Our system achieves **remarkable accuracy**, with measurement deviations of **less than 3mm** compared to traditional tailor-made garments. This level of precision **outperforms human-tailored measurements** and is significantly **faster and more scalable**.  
+Our system achieves remarkable accuracy, with measurement deviations of less than **3 mm** compared to traditional tailor-made garments. This level of precision outperforms human-tailored measurements and is significantly faster and more scalable.  
 
 ### Key Benefits:  
-- **Near-perfect fit** for all body shapes  
-- **Fully automated pipeline** from input measurements to garment templates  
-- **Scalable for mass customization** in fashion production  
-
-*Placeholder for a comparison table: AI-generated vs. traditional tailor measurements.*  
+- Near-perfect fit for all body shapes  
+- Fully automated pipeline from input measurements to garment templates  
+- Scalable for mass customization in fashion production  
 
 ---
 
 # Impact on the Fashion Industry  
 
-With the rise of **on-demand fashion**, our system paves the way for:  
-- **Zero-inventory clothing production** (reducing waste)  
-- **Personalized clothing e-commerce** (AI-generated virtual fitting)  
-- **Accessible made-to-measure clothing** (cost-effective production)  
+With the rise of on-demand fashion, our system paves the way for:  
+- Zero-inventory clothing production (reducing waste)  
+- Personalized clothing e-commerce (AI-generated virtual fitting)  
+- Accessible made-to-measure clothing (cost-effective production)  
 
-We believe this technology will be **a game-changer** in how clothes are designed, fitted, and manufactured.  
+We believe this technology will be a game-changer in how clothes are designed, fitted, and manufactured.  
 
 ---
 
@@ -99,6 +98,4 @@ We believe this technology will be **a game-changer** in how clothes are designe
 
 The world of fashion is changing. **AI-driven garment customization is no longer the future—it's happening now.**  
 
-By combining **deep learning, 3D body modeling, and precise anthropometric extraction**, we've built a system that **bridges the gap** between mass production and tailor-made perfection.  
-
----
+By combining deep learning, 3D body modeling, and precise anthropometric extraction, we've built a system that bridges the gap between mass production and tailor-made perfection.  
